@@ -1,0 +1,13 @@
+.vehicles {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-auto-rows: auto;
+  gap: 1rem;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.vehicles > a {
+  color: black;
+}

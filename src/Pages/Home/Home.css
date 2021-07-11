@@ -1,0 +1,53 @@
+.heading {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.categories {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 400px;
+  gap: 1rem;
+  width: 90%;
+  margin: auto;
+}
+
+.category a {
+  color: white;
+  font-size: 2.5rem;
+}
+.categories > div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.categories > div > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.categories > div > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background-color: rgba(150, 131, 131, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.5rem;
+  color: white;
+}
+
+.categories > div > div > p {
+  margin-bottom: 0px;
+}
+
+.categories > div > div > img {
+  width: 30px;
+}

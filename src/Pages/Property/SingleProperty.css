@@ -1,0 +1,138 @@
+.SingleProperty {
+  display: flex;
+}
+
+.gallery {
+  flex: 1;
+}
+
+.info {
+  flex: 1;
+  padding: 1rem;
+}
+
+.info-header {
+  width: 90%;
+  margin: auto;
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.info-header p {
+  margin: 0;
+  padding-left: 5px;
+}
+
+.info-body {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.info-body-icons {
+  display: flex;
+}
+
+.info-body-icon {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0.5rem 2rem;
+  border-right: 1px solid #ccc;
+}
+
+.info-body a {
+  color: white;
+  background-color: #007a84;
+  display: inline-block;
+  padding: 1rem 4rem;
+  margin: 1rem 0;
+}
+
+.company-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.building-info-container {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.building-info {
+  display: flex;
+}
+
+.building-info > div {
+  margin-left: 1rem;
+}
+
+.contact-form {
+  width: 90%;
+  margin: auto;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.agent-name {
+  width: 100%;
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.form-body {
+  width: 100%;
+  padding: 2rem;
+
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.form-control {
+  width: 100%;
+  border: none;
+}
+
+.form-control input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 1rem 2rem;
+}
+
+.message-input {
+  height: 100px;
+}
+
+.form-control button {
+  display: block;
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  background-color: #007a84;
+  cursor: pointer;
+}
