@@ -39,6 +39,7 @@ const SingleProperty = ({ match }) => {
             crop="fill"
           /> */}
           <img
+            alt="img"
             src={`https://res.cloudinary.com/dequo8fxt/image/upload/v1625476104/${property.photos[0]}.jpg`}
             width="100%"
           />

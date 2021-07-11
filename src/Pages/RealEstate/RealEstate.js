@@ -40,7 +40,7 @@ const RealEstate = () => {
 
   React.useEffect(() => {
     dispatch(fetchProperties());
-  }, []);
+  }, [dispatch]);
   return (
     <div>
       <Slider contents={categories} />

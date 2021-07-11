@@ -31,17 +31,17 @@ const Menubar = () => {
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="/agriculture">
             Agriculture
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="/solar">
             Solar Energy
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="/ict">
             Information Technology
           </a>
         </li>

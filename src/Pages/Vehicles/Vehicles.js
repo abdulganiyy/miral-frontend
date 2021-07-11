@@ -32,7 +32,7 @@ const Vehicles = () => {
 
   React.useEffect(() => {
     dispatch(fetchVehicles());
-  }, []);
+  }, [dispatch]);
   return (
     <div>
       <Slider contents={categories} />
