@@ -17,27 +17,27 @@ const Menubar = () => {
           </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/vehicles">
+          <Link className="nav-link" to="/vehicles">
             Automobile
-          </a>
+          </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/oil-gas">
+          <Link className="nav-link" to="/oil-gas">
             Oil
-          </a>
+          </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/agriculture">
+          <Link className="nav-link" to="/agriculture">
             Agriculture
-          </a>
+          </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/solar">
+          <Link className="nav-link" to="/solar">
             Solar Energy
-          </a>
+          </Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/ict">
+          <Link className="nav-link" to="/ict">
             Information Technology
           </a>
         </li>
