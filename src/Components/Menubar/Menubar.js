@@ -39,7 +39,7 @@ const Menubar = () => {
         <li class="nav-item">
           <Link className="nav-link" to="/ict">
             Information Technology
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
