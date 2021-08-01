@@ -136,3 +136,34 @@
   background-color: #007a84;
   cursor: pointer;
 }
+
+.location {
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.map-container {
+  width: 90%;
+  margin: auto;
+  height: 400px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.single-property-footer {
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.single-property-footer > div {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.greyy {
+  color: #828282;
+}

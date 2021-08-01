@@ -1,0 +1,29 @@
+.ict-about {
+  height: 80vh;
+}
+
+.ict-about img {
+  width: 100%;
+  height: 100%;
+}
+
+.ict-details {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.ict-details-grid div {
+  margin-top: 2rem;
+}
+
+.ict-details-grid p {
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .ict-details-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}

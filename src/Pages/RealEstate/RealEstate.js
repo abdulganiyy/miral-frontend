@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { Image } from "cloudinary-react";
 import "./RealEstate.css";
+import Footer from "../../Components/Footer/Footer";
 
 const categories = [
   {
@@ -75,7 +76,7 @@ const RealEstate = () => {
           <p>loading...</p>
         )}
       </div>
-      <div style={{ height: "300px", backgroundColor: "red" }}>hello</div>
+      <Footer />
     </div>
   );
 };

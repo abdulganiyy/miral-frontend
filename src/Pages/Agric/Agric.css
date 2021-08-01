@@ -1,0 +1,48 @@
+.agric-about {
+  position: relative;
+  height: 80vh;
+}
+
+.agric-about img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  z-index: 10;
+}
+
+.agric-about div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  z-index: 15;
+  background-color: rgba(161, 161, 43, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+}
+
+.agric-details {
+  text-align: center;
+  padding: 1rem;
+}
+
+.agric-values {
+  text-align: center;
+  background-color: #eaedf0;
+  padding: 2rem 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .agric-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}

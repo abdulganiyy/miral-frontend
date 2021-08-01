@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "../../Components/Slider/Slider";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import Footer from "../../Components/Footer/Footer";
 
 const categories = [
   {
@@ -115,6 +116,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -4,20 +4,11 @@ import "./Menubar.css";
 
 const Menubar = () => {
   return (
-    <div
-      className="menubar"
-      style={{
-        position: "fixed",
-        backgroundColor: "transparent",
-        top: "0",
-        zIndex: "50",
-        color: "black",
-      }}
-    >
+    <div className="menubar">
       <ul className="nav justify-content-center">
         <li className="nav-item">
           <Link className="nav-link" to="/">
-            MIRAL
+            Walanco
           </Link>
         </li>
         <li className="nav-item">
@@ -28,6 +19,11 @@ const Menubar = () => {
         <li class="nav-item">
           <a class="nav-link" href="/vehicles">
             Automobile
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/oil-gas">
+            Oil
           </a>
         </li>
         <li class="nav-item">
