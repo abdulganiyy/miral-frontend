@@ -19,7 +19,7 @@ import NewMenuBar from "./Components/NewMenuBar/NewMenuBar";
 function App() {
   return (
     <Router>
-      <div>
+      <>
         <NewMenuBar />
         <Route path="/" exact component={Home} />
         <Route path="/realestate" exact component={RealEstate} />
@@ -32,7 +32,7 @@ function App() {
         <Route path="/agriculture" exact component={Agric} />
         <Route path="/ict" exact component={Ict} />
         <Route path="/vehicles/:type" exact component={Automobile} />
-      </div>
+      </>
     </Router>
   );
 }

@@ -19,6 +19,10 @@ const NewMenuBar = () => {
     window.addEventListener("scroll", changeBackgroundColor);
   });
 
+  const hideMobileNav = () => {
+    setShowMobileNav(false);
+  };
+
   return (
     <>
       <div className={activeNavbar ? "toolbar-new active" : "toolbar-new"}>
@@ -54,22 +58,22 @@ const NewMenuBar = () => {
       </div>
       <div className={showMobileNav ? "mobile-nav active" : "mobile-nav"}>
         <ul>
-          <li>
+          <li onClick={hideMobileNav}>
             <Link to="/realestate">Real Estate</Link>
           </li>
-          <li>
+          <li onClick={hideMobileNav}>
             <Link to="/vehicles">Automobile</Link>
           </li>
-          <li>
+          <li onClick={hideMobileNav}>
             <Link to="/oil-gas">Oil&Gas</Link>
           </li>
-          <li>
+          <li onClick={hideMobileNav}>
             <Link to="/solar">Solar</Link>
           </li>
-          <li>
+          <li onClick={hideMobileNav}>
             <Link to="/agriculture">Agriculture</Link>
           </li>
-          <li>
+          <li onClick={hideMobileNav}>
             <Link to="/ict">ICT</Link>
           </li>
         </ul>

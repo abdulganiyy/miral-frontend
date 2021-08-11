@@ -33,7 +33,7 @@ const categories = [
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Slider contents={categories} />
       <div className="heading">
         <h2>Featured Categories</h2>

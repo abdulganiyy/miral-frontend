@@ -45,9 +45,10 @@
 
 .mobile-nav {
   position: fixed;
-  top: 60px;
+  top: 45px;
   left: 10%;
-  z-index: 30;
+  z-index: 3000;
+  width: 80%;
   transform: scaleY(0);
   transition: transform ease-in-out 0.2s;
 }
@@ -59,10 +60,12 @@
 .mobile-nav ul {
   display: block;
   list-style-type: none;
+  background-color: white;
 }
 
 .mobile-nav ul li {
   margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .mobile-nav ul li a {
