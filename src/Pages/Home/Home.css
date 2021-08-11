@@ -51,3 +51,9 @@
 .categories > div > div > img {
   width: 30px;
 }
+
+@media only screen and (max-width: 1220px) {
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

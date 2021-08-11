@@ -11,15 +11,16 @@ import OilGas from "./Pages/Oil&Gas/OilGas";
 import Solar from "./Pages/Solar/Solar";
 import Agric from "./Pages/Agric/Agric";
 import Ict from "./Pages/Ict/Ict";
-import Automobile from './Pages/Automobile/Automobile'
+import Automobile from "./Pages/Automobile/Automobile";
 
-import Menubar from "./Components/Menubar/Menubar";
+// import Menubar from "./Components/Menubar/Menubar";
+import NewMenuBar from "./Components/NewMenuBar/NewMenuBar";
 
 function App() {
   return (
     <Router>
       <div>
-        <Menubar />
+        <NewMenuBar />
         <Route path="/" exact component={Home} />
         <Route path="/realestate" exact component={RealEstate} />
         <Route path="/properties/:id" exact component={SingleProperty} />
