@@ -29,6 +29,31 @@
 .footer-item2-inner2 {
   display: flex;
   justify-content: space-between;
-  /* width: 150px; */
+  width: 150px;
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 1220px) {
+  .footer-item1 {
+    display: block;
+  }
+
+  .footer-item1-inner2 {
+    margin-left: 0;
+  }
+
+  .footer-item2 {
+    display: block;
+  }
+
+  .footer-item2-inner2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .footer-item2-inner2 div {
+    margin-left: 0.5rem;
+  }
 }

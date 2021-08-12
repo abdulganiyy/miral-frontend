@@ -3,6 +3,8 @@ import { FaAlignJustify } from "react-icons/fa";
 import "./NewMenuBar.css";
 import { Link } from "react-router-dom";
 
+import logo from "../../images/logo.png";
+
 const NewMenuBar = () => {
   const [activeNavbar, setActiveNavbar] = React.useState(false);
   const [showMobileNav, setShowMobileNav] = React.useState(false);
@@ -27,7 +29,11 @@ const NewMenuBar = () => {
     <>
       <div className={activeNavbar ? "toolbar-new active" : "toolbar-new"}>
         <div className="inner-wrapper">
-          <div className="logo">WALANCOGROUP</div>
+          <div className="logo">
+            <Link to="/">
+              <img alt="logo" src={logo} />
+            </Link>
+          </div>
           <ul>
             <li>
               <Link to="/realestate">Real Estate</Link>
