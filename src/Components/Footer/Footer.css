@@ -1,4 +1,5 @@
 .footer-wrapper {
+  width: 100%;
   padding: 2rem 4rem;
   background-color: black;
   color: #ccc;
@@ -28,6 +29,6 @@
 .footer-item2-inner2 {
   display: flex;
   justify-content: space-between;
-  width: 150px;
+  /* width: 150px; */
   font-size: 2rem;
 }
