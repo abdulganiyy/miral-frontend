@@ -167,3 +167,9 @@
 .greyy {
   color: #828282;
 }
+
+@media screen and (max-width: 1220px) {
+  .SingleProperty {
+    display: block;
+  }
+}

@@ -15,6 +15,7 @@
 
 .inner-contact {
   flex: 1;
+  margin-top: 2rem;
 }
 
 .form-wrapper-contact {
@@ -48,4 +49,18 @@ textarea {
   border: none;
   cursor: pointer;
   background-color: #dec79b;
+}
+
+@media only screen and (max-width: 1220px) {
+  .contact-wrapper {
+    display: block;
+  }
+
+  .inner-details {
+    margin-top: 1rem;
+  }
+
+  .inner-contact {
+    margin-top: 4rem;
+  }
 }

@@ -65,7 +65,7 @@ const SingleProperty = ({ match }) => {
   return (
     <>
       <div>
-        {/* <div style={{ height: "100px" }}></div> */}
+        <div style={{ height: "60px" }}></div>
         <div className="SingleProperty">
           <div className="gallery">
             {/* <Image

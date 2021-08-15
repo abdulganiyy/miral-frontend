@@ -33,3 +33,27 @@
 .about-details > div > p {
   font-weight: bold;
 }
+
+@media screen and (max-width: 1220px) {
+  .about-img {
+    height: 350px;
+  }
+
+  .about-img img {
+    height: 100%;
+  }
+
+  .about-details {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .about-details > div > p {
+    margin-top: 1rem;
+  }
+}
