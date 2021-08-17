@@ -4,6 +4,13 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import Footer from "../../Components/Footer/Footer";
 
+import huffpost from "../../images/huffpost.svg";
+import bbc from "../../images/bbc.svg";
+import bloom from "../../images/bloom.svg";
+import insider from "../../images/insider.svg";
+import times from "../../images/times.svg";
+import cnbc from "../../images/cnbc.svg";
+
 const categories = [
   {
     name: "OIL AND GAS",
@@ -35,6 +42,17 @@ function Home() {
   return (
     <div className="home">
       <Slider contents={categories} />
+      <div className="home-about">
+        <h4>WELCOME TO WALANCO GROUP</h4>
+        <p className="short-desc">
+          Walanco Group is a general consultant and brokerage company that offer
+          a broad portfolio of powerful trusted innovative formats that continue
+          to capture the imagination of the company and industries worldwide
+        </p>
+        <p className="findout">
+          <span>FIND OUT MORE</span>
+        </p>
+      </div>
       <div className="heading">
         <h2>Featured Categories</h2>
       </div>
@@ -114,6 +132,40 @@ function Home() {
               <i class="fas fa-long-arrow-alt-right"></i>
             </Link>
           </div>
+        </div>
+      </div>
+      <div className="partners">
+        <h3>PARTNERS</h3>
+        <div>
+          <img alt="img" src={huffpost} />
+          <img alt="img" src={bbc} />
+          <img alt="img" src={cnbc} />
+          <img alt="img" src={insider} />
+          <img alt="img" src={times} />
+          <img alt="img" src={bloom} />
+        </div>
+      </div>
+      <div className="newsletter">
+        <div className="newsletter-desc">
+          <h2>Weekly Luxury Newsletter</h2>
+          <p>
+            Receive the beautifully curated selection of what’s trending in
+            luxury with <br />
+            inside stories and tips from our experts.
+          </p>
+        </div>
+        <div className="newsletter-form">
+          <form onSubmit={(e) => e.preventDefault()}>
+            <div>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div>
+              <button type="submit">SUBSCRIBE</button>
+            </div>
+          </form>
+          <p>
+            BY SHARING YOUR EMAIL, YOU AGREE TO OUR TERMS OF USE AND PRIVACY.
+          </p>
         </div>
       </div>
       <Footer />

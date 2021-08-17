@@ -8,6 +8,28 @@
   padding: 2rem 1rem;
 }
 
+.home-about {
+  text-align: center;
+  background-color: #2947c7;
+  color: white;
+  padding: 4rem 0;
+}
+
+.short-desc {
+  width: 60%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.findout span {
+  border-radius: 2rem;
+  border: 1px solid white;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
 .categories {
   padding: 1rem;
   display: grid;
@@ -56,9 +78,83 @@
   width: 30px;
 }
 
+.partners {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0 6rem;
+}
+
+.partners div {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter {
+  margin: 5rem 0;
+  padding: 0 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter-desc h2 {
+  margin-bottom: 2rem;
+}
+
+.newsletter-form {
+  width: 500px;
+}
+
+.newsletter-form > div {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.newsletter-form input,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+  height: 60px;
+}
+
+.newsletter-form input {
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.newsletter-form button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1220px) {
   .categories {
     grid-template-columns: 1fr;
     grid-auto-rows: 300px;
+  }
+
+  .partners div {
+    margin: 3rem 0;
+    display: block;
+  }
+
+  .partners div > img {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 2rem;
+  }
+
+  .newsletter-form {
+    margin-top: 3rem;
+    width: 100%;
   }
 }
