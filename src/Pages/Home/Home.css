@@ -130,6 +130,107 @@ button {
   cursor: pointer;
 }
 
+.home__second-about {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 7rem;
+}
+
+.home__second-about__img-box {
+  flex: 1;
+  align-self: stretch;
+}
+
+.home__second-about__img-box__img {
+  width: 100%;
+  height: 100%;
+}
+
+.home__second-about__text-box {
+  flex: 1;
+  padding: 0 3rem;
+}
+
+.home__second-about__text-box__heading {
+  margin-bottom: 2rem;
+}
+
+.home__second-about__text-box__main {
+  margin-bottom: 2rem;
+}
+
+.home__second-contact {
+  position: relative;
+  background-color: blue;
+}
+
+.home__second-contact__heading {
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
+}
+
+.home__second-contact__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blue;
+  color: white;
+}
+
+.home__second-contact__content__form {
+  width: 40%;
+}
+
+.home__second-contact__content__form h4 {
+  margin-bottom: 1.5rem;
+}
+
+.home__second-contact__content__form input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+  border: none;
+  padding: 1rem;
+}
+
+.home__second-contact__content__form button {
+  display: block;
+  width: 100%;
+  border: none;
+  text-align: center;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.home__second-contact__content__details {
+  width: 40%;
+  margin-left: 2rem;
+}
+
+.home__second-contact__content__details > div {
+  margin-bottom: 4rem;
+}
+
+.address-wrapper h3 {
+  color: #7f8389;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.address {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.address > div > h4 {
+  margin: 2rem 0;
+}
+
 @media only screen and (max-width: 1220px) {
   .categories {
     grid-template-columns: 1fr;
@@ -156,5 +257,44 @@ button {
   .newsletter-form {
     margin-top: 3rem;
     width: 100%;
+  }
+
+  .home__second-about {
+    display: block;
+
+    margin-top: 4rem;
+  }
+
+  .home__second-about__text-box__heading {
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .home__second-contact__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    height: auto;
+  }
+
+  .home__second-contact__content__form {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+
+  .home__second-contact__content__form h4 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .home__second-contact__content__details {
+    width: 90%;
+  }
+
+  .address {
+    flex-direction: column;
   }
 }
